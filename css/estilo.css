@@ -1,0 +1,106 @@
+*{{
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    text-align: center;
+    color: #333; 
+}
+
+#quiz{
+    margin-top: 5%;
+    padding: 20px;
+    background: white;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1 ); 
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    
+}
+
+.resposta{
+    margin: auto auto;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+
+.resposta:hover{
+    background: yellow;
+}
+
+.resposta.selecionada{
+  background: #c9c9f6;  
+}
+
+#confirm{
+    margin: 30px auto 0;
+    font-weight: bold;
+    background: #11b411; 
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+#confirm:hover{
+    background: green;
+
+}
+
+.errada{
+    background:red;
+    color: white;
+}
+
+.correta{
+    background: green;
+    color: white;
+    animation: piscaCerto 0.8s infinite; 
+}
+
+@-webkit-keyframes piscaCerto{
+    0%,
+    49%{
+        background:green; 
+    }
+    50%,
+    100%{
+        background:seagreen;
+    }
+}
+
+#status{
+    padding: 10%
+}
+
+#novoJogo{
+    background: black;
+    color: white; 
+    margin: auto auto;
+    cursor: pointer;
+}
+
+.oculto{
+    display: none;
+}
+
