@@ -45,6 +45,3 @@ Uso livre para fins de estudo, com os devidos créditos mantidos.
    git clone https://github.com/seu-usuario/quiz-jogo.git
 
 cd quiz-jogo
-
-
-
