@@ -18,6 +18,8 @@ Um jogo simples de perguntas e respostas (Quiz) feito com HTML, CSS, JavaScript 
 - JavaScript
 - jQuery
 
+  Visualização: (https://richeliane-moura.github.io/quiz-jogo-/)
+
 
 📚 Créditos
 Este projeto foi desenvolvido com base no conteúdo do curso:
