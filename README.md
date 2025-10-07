@@ -2,8 +2,6 @@
 
 Um jogo simples de perguntas e respostas (Quiz) feito com HTML, CSS, JavaScript e jQuery.
 
-⚠️ Atenção: Este código foi copiado/adaptado do curso "Programador Master" da plataforma Kiwify, e está sendo utilizado somente para fins de estudo e prática pessoal. 
-
 ## 🧠 Como funciona
 
 - O jogo sorteia perguntas aleatórias.
@@ -40,10 +38,4 @@ Uso livre para fins de estudo, com os devidos créditos mantidos.
 
 
 
-## 📦 Como rodar
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/quiz-jogo.git
-
-cd quiz-jogo
